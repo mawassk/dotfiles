@@ -1,0 +1,37 @@
+{
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 1,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "python.showStartPage": false,
+    "editor.fontSize": 18,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "python.linting.pylintUseMinimalCheckers": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.linting.pylintArgs": [
+        "--disable=C0114,C0115,C0116,E0401",
+        "--min-public-methods=0"
+    ],
+    "debug.console.fontSize": 16,
+    "markdown.preview.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "debug.terminal.clearBeforeReusing": true,
+    "sqltools.useNodeRuntime": true,
+    "python.formatting.blackPath": "/bin/black",
+    "python.linting.pylintPath": "/bin/pylint",
+    "python.languageServer": "Pylance",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "git.enableCommitSigning": true
+}
