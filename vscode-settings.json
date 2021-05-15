@@ -31,5 +31,8 @@
     "python.linting.pylintEnabled": true,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "git.enableCommitSigning": true
+    "git.enableCommitSigning": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "python.testing.pytestEnabled": true,
 }
