@@ -17,7 +17,7 @@
         "source.organizeImports": true
     },
     "python.linting.pylintArgs": [
-        "--disable=C0114,C0115,C0116",
+        "--disable=C0114,C0115,C0116,R0201",
         "--min-public-methods=0"
     ],
     "debug.console.fontSize": 16,
