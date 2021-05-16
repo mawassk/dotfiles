@@ -35,4 +35,7 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "python.testing.pytestEnabled": true,
+    "python.sortImports.args": [
+        "--src=${workspaceFolder}"
+    ],
 }
