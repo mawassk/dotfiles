@@ -18,7 +18,8 @@
     },
     "python.linting.pylintArgs": [
         "--disable=C0114,C0115,C0116,R0201",
-        "--min-public-methods=0"
+        "--min-public-methods=0",
+        "--extension-pkg-whitelist=pydantic"
     ],
     "debug.console.fontSize": 16,
     "markdown.preview.fontSize": 16,
