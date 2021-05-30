@@ -40,4 +40,10 @@
         "--src=${workspaceFolder}"
     ],
     "workbench.startupEditor": "none",
+    "files.exclude": {
+        "**/__pycache__": true,
+        ".pytest_cache": true,
+        ".venv": true,
+        "*.lock": true
+    }
 }
