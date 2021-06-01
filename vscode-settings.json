@@ -1,6 +1,6 @@
 {
     "window.titleBarStyle": "custom",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 1.5,
     "workbench.editorAssociations": [
         {
             "viewType": "jupyter.notebook.ipynb",
