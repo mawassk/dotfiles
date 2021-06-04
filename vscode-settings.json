@@ -46,7 +46,7 @@
     "python.linting.flake8Args": [
         "--max-line-length=88",
         "--select=C,E,F,B950",
-        "--ignore=E203,E501",
+        "--ignore=E501",
     ],
     "python.linting.flake8CategorySeverity.B": "Warning",
 }
