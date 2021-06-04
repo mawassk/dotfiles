@@ -12,15 +12,9 @@
     "python.formatting.provider": "black",
     "editor.formatOnSave": true,
     "explorer.confirmDelete": false,
-    "python.linting.pylintUseMinimalCheckers": false,
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
-    "python.linting.pylintArgs": [
-        "--disable=C0114,C0115,C0116,R0201,W0702",
-        "--min-public-methods=0",
-        "--extension-pkg-whitelist=pydantic"
-    ],
     "debug.console.fontSize": 16,
     "markdown.preview.fontSize": 16,
     "terminal.integrated.fontSize": 16,
@@ -29,7 +23,6 @@
     "sqltools.useNodeRuntime": true,
     "python.languageServer": "Pylance",
     "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "git.enableCommitSigning": true,
@@ -37,13 +30,21 @@
     "git.enableSmartCommit": true,
     "python.testing.pytestEnabled": true,
     "python.sortImports.args": [
-        "--src=${workspaceFolder}"
+        "--src=${workspaceFolder}",
+        "--profile=black"
     ],
     "workbench.startupEditor": "none",
+    "explorer.confirmDragAndDrop": false,
     "files.exclude": {
         "**/__pycache__": true,
         ".pytest_cache": true,
         ".venv": true,
         "*.lock": true
-    }
+    },
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88",
+        "--extend-ignore=E203"
+    ],
 }
