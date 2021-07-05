@@ -47,4 +47,5 @@
         "--select=C,E,F",
         "--ignore=E203",
     ],
+    "python.pythonPath": ".venv/bin/python",
 }
