@@ -20,7 +20,6 @@
     "terminal.integrated.fontSize": 16,
     "python.terminal.activateEnvInCurrentTerminal": true,
     "debug.terminal.clearBeforeReusing": true,
-    "sqltools.useNodeRuntime": true,
     "python.languageServer": "Pylance",
     "python.linting.enabled": true,
     "telemetry.enableTelemetry": false,
