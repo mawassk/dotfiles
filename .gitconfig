@@ -1,0 +1,8 @@
+[user]
+        name = Maximilian Wassink
+        email = wassink.maximilian@protonmail.com
+        signingkey = C899BBD35987625C
+[commit]
+        gpgsign = true
+[init]
+        defaultBranch = main
