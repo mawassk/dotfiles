@@ -37,7 +37,7 @@
     "files.exclude": {
         "**/__pycache__": true,
         ".pytest_cache": true,
-        "venv": true,
+        ".venv": true,
         "*.lock": true
     },
     "python.linting.pylintEnabled": false,
@@ -47,5 +47,5 @@
         "--select=C,E,F",
         "--ignore=E203",
     ],
-    "python.pythonPath": "venv/bin/python",
+    "python.pythonPath": ".venv/bin/python",
 }
