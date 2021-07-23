@@ -53,4 +53,5 @@
     },
     "python.linting.flake8CategorySeverity.B": "Error",
     "python.linting.flake8CategorySeverity.S": "Error",
+    "python.linting.mypyEnabled": true,
 }
