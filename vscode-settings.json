@@ -41,7 +41,7 @@
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--max-line-length=88",
-        "--select=C,E,F,B,B950,S",
+        "--select=C,E,F,B,B950,S,D",
         "--ignore=E203,E501",
     ],
     "python.pythonPath": ".venv/bin/python",
@@ -53,5 +53,6 @@
     },
     "python.linting.flake8CategorySeverity.B": "Error",
     "python.linting.flake8CategorySeverity.S": "Error",
+    "python.linting.flake8CategorySeverity.D": "Error",
     "python.linting.mypyEnabled": true,
 }
