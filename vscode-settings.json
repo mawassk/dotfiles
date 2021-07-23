@@ -1,12 +1,9 @@
 {
     "window.titleBarStyle": "custom",
     "window.zoomLevel": 1.5,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
     "python.showStartPage": false,
     "editor.fontSize": 18,
     "python.formatting.provider": "black",
@@ -44,8 +41,15 @@
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--max-line-length=88",
-        "--select=C,E,F",
-        "--ignore=E203",
+        "--select=C,E,F,B,B950",
+        "--ignore=E203,E501",
     ],
     "python.pythonPath": ".venv/bin/python",
+    "terminal.integrated.tabs.enabled": false,
+    "githubPullRequests.fileListLayout": "flat",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "python.linting.flake8CategorySeverity.B": "Error",
 }
