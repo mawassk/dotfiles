@@ -38,6 +38,7 @@
         "**/__pycache__": true,
         ".pytest_cache": true,
         ".venv": true,
+        ".nox": true,
     },
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
