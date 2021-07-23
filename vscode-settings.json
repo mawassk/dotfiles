@@ -43,6 +43,7 @@
         "--max-line-length=88",
         "--select=C,E,F,B,B950,S,D",
         "--ignore=E203,E501",
+        "--docstring-convention=google"
     ],
     "python.pythonPath": ".venv/bin/python",
     "terminal.integrated.tabs.enabled": false,
